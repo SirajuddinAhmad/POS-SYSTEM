@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f1f5f9"/>
+  <!-- Isometric Package Box -->
+  <g transform="translate(40, 35)">
+    <!-- Top Face -->
+    <polygon points="60,10 110,35 60,60 10,35" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Left Face -->
+    <polygon points="10,35 60,60 60,115 10,90" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Right Face -->
+    <polygon points="60,60 110,35 110,90 60,115" fill="#94a3b8" stroke="#64748b" stroke-width="2"/>
+    <!-- Box Tape / Seam -->
+    <path d="M60,10 L60,60" stroke="#94a3b8" stroke-width="3" stroke-dasharray="4,2"/>
+  </g>
+  <text x="100" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" fill="#94a3b8" text-anchor="middle" letter-spacing="1">NO IMAGE</text>
+</svg>
